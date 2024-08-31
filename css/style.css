@@ -94,8 +94,8 @@ img {
     z-index: 999;
 }
 .navbar-brand {
-    width: 220px;
-    height: 60px;
+    width: 80px;
+    height: 70px;
     overflow: hidden;
     object-fit: cover;
     object-position: center;
@@ -340,35 +340,32 @@ img {
 #about .section_details {
     padding: 20px 0;
 }
-.about_wrapper {
+.about_btn_wrapper{
     display: flex;
-    flex-direction: column;
-    text-transform: capitalize;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
-.about_item {
-    width: 50%;
-    margin: 0 auto;
-}
-.about_item h3 {
-    text-transform: uppercase;
-    padding-bottom: 20px;
+.about_btn{
     font-family: var(--primary-font);
-    font-size: 25px;
-    font-weight: 600;
-    color: #d9a566;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgba(12, 0, 103, 0.801);
+    background-color: rgba(191, 255, 0, 0.813);
+    padding: 15px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
-.about_item ol li {
-    list-style-type: disc;
-    padding: 5px 0;
-    font-family: var(--secondary-font);
-    font-size: 16px;
-    font-weight: 300;
-    color: #2d2d2d;
-    line-height: 1.5;
-}
-.about_item ol li span {
-    font-weight: 600;
+.about_btn:hover{
+    color: rgba(255, 0, 0, 0.9);
+    background-color: rgba(0, 197, 251, 0.947);
 }
 /* ===== about section start here ===== */
 /* ===== service section end here ===== */
