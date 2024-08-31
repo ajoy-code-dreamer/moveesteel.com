@@ -514,6 +514,7 @@ img {
     line-height: 150%;
     transition: all 0.3s linear;
     cursor: text;
+    text-align: center;
 }
 .contact_item p a {
     font-family: var(--secondary-font);
